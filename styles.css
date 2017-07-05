@@ -1,0 +1,430 @@
+body {
+  margin: 0;
+  font-family: 'Inconsolata', monospace;
+}
+
+h1, h2, p {
+  margin: 0;
+}
+
+.main {
+  height: 600px;
+  width: 100%;
+  background-image: url("power-over-potus.jpg");
+  background-size: 100%;
+  background-position: right top;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  padding: 30px 100px;
+}
+
+  #title {
+    height: 400px;
+  }
+
+  #buy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 27px;
+    line-height: 35px;
+    font-family: 'Inconsolata', monospace;
+    font-weight: bolder;
+    text-align: center;
+    text-decoration: none;
+    height: 100px;
+    width: 250px;
+    background-color: transparent;
+    color: white;
+    box-sizing: border-box;
+    border: 2px solid white;
+    margin-left: 95px;
+    margin-top: 20px;
+  }
+
+  #buy:hover {
+    background-color: rgb(240, 0, 42);
+    cursor: pointer;
+    color: white;
+    border: none;
+  }
+
+.box1 {
+  width: 100%;
+  background-color: white;
+  padding: 125px 150px;
+  box-sizing: border-box;
+  border-bottom: 1px solid black;
+  color: rgb(124, 158, 207);
+}
+
+  .box1 img {
+    height: 150px;
+    margin: 20px 0 0 -7px;
+  }
+
+  #small {
+    font-size: 17px;
+    line-height: 17px;
+  }
+
+  h1 {
+    font-family: 'Inconsolata', monospace;
+    line-height: 50px;
+    font-size: 30px;
+  }
+
+.box2 {
+  width: 100%;
+  background-color: white;
+  padding: 125px 150px;
+  box-sizing: border-box;
+  border-bottom: 1px solid black;
+  color: rgb(240, 0, 42);
+}
+
+  p {
+    line-height: 50px;
+    font-size: 20px;
+    letter-spacing: 1px;
+  }
+
+  #first {
+    margin-bottom: 50px;
+  }
+
+  .strong {
+    font-weight: bolder;
+  }
+
+.box3 {
+  width: 100%;
+  background-color: white;
+  box-sizing: border-box;
+  padding: 125px 150px;
+  border-bottom: 1px solid black;
+}
+
+  .box3 h1 {
+    margin-bottom: 50px;
+  }
+
+  .box3 p {
+    margin-bottom: 50px;
+  }
+
+  .box3 img {
+    height: 300px;
+    border-radius: 100%;
+    float: left;
+    margin: 0 60px 30px 0;
+  }
+
+.box4 {
+  width: 100%;
+  background-color: white;
+  box-sizing: border-box;
+  padding: 125px 150px;
+  border-bottom: 1px solid black;
+  color: rgb(124, 158, 207);
+  background-image: url("SYNT.png");
+  background-size: 40%;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-attachment: fixed;
+}
+
+.box5 {
+  width: 100%;
+  background-color: white;
+  box-sizing: border-box;
+  padding: 125px 150px;
+  border-bottom: 1px solid black;
+  color: rgb(240, 0, 42);
+}
+
+.box6 {
+  width: 100%;
+  background-color: white;
+  box-sizing: border-box;
+  padding: 125px 150px;
+  border-bottom: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+  #press {
+    border: none;
+    background-color: rgb(124, 158, 207);
+    color: white;
+    height: 100px;
+    width: 370px;
+    font-size: 22px;
+    font-family: 'Inconsolata', monospace;
+  }
+
+  #press:hover {
+    background-color: transparent;
+    border: 1px solid black;
+    color: black;
+    cursor: pointer;
+  }
+
+  .press-photos {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .press-img {
+    height: 0;
+  }
+
+  .first {
+    margin-right: 20px;
+  }
+
+  .bottom {
+    margin-top: 20px;
+    height: 0;
+  }
+
+  .press:hover {
+    cursor: pointer;
+  }
+
+footer {
+  height: 100px;
+  width: 100%;
+  background-color: white;
+  text-align: center;
+}
+
+  footer img {
+    height: 50px;
+    margin-top: -25px;
+  }
+
+  footer img:hover {
+    height: 55px;
+    margin-bottom: -5px;
+    cursor: pointer;
+  }
+
+  footer p {
+    line-height: 100px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation: portrait) {
+
+.main {
+  background-attachment: initial;
+  background-size: 130%;
+}
+
+}
+
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation: landscape) {
+
+.main {
+  background-attachment: initial;
+  background-size: 130%;
+}
+
+}
+
+
+@media only screen
+and (min-device-width : 414px)
+and (max-device-width : 736px)
+and (orientation: portrait) {
+
+.main {
+  background-attachment: initial;
+  background-size: 130%;
+}
+
+.box {
+  padding: 100px 50px;
+}
+
+.box3 img {
+  margin-top: 50px;
+}
+
+h1 {
+  font-size: 38px;
+  line-height: 90px;
+}
+
+p {
+  font-size: 35px;
+  line-height: 80px;
+}
+
+footer {
+  height: 200px;
+  box-sizing: border-box;
+  padding: 0 25px 25px 25px;
+}
+
+}
+
+@media only screen
+and (min-device-width : 414px)
+and (max-device-width : 736px)
+and (orientation: landscape) {
+
+.main {
+  background-attachment: initial;
+  background-size: 130%;
+}
+
+}
+
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 667px)
+and (orientation: portrait) {
+
+.main {
+  background-attachment: initial;
+  background-size: 130%;
+}
+
+.box {
+  padding: 100px 50px;
+}
+
+.box3 img {
+  margin-top: 50px;
+}
+
+h1 {
+  font-size: 38px;
+  line-height: 90px;
+}
+
+p {
+  font-size: 35px;
+  line-height: 80px;
+}
+
+footer {
+  height: 200px;
+  box-sizing: border-box;
+  padding: 0 25px 25px 25px;
+}
+
+}
+
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 667px)
+and (orientation: landscape) {
+
+.main {
+  background-attachment: initial;
+  background-size: 130%;
+}
+
+}
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px)
+and (orientation: portrait) {
+
+.main {
+  background-attachment: initial;
+  background-size: 130%;
+}
+
+.box {
+  padding: 100px 50px;
+}
+
+.box3 img {
+  margin-top: 50px;
+}
+
+h1 {
+  font-size: 38px;
+  line-height: 90px;
+}
+
+p {
+  font-size: 35px;
+  line-height: 80px;
+}
+
+footer {
+  height: 200px;
+  box-sizing: border-box;
+  padding: 0 25px 25px 25px;
+}
+
+}
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px)
+and (orientation: landscape) {
+
+.main {
+  background-attachment: initial;
+  background-size: 130%;
+}
+
+}
+
+@media only screen and (max-width: 1150px) {
+
+.main {
+  background-size: 130%;
+}
+
+}
+
+@media only screen and (max-width: 950px) {
+
+.main {
+  background-size: 160%;
+}
+
+@media only screen and (max-width: 700px) {
+
+.main {
+  background-size: 200%;
+}
+
+}
+
+}
